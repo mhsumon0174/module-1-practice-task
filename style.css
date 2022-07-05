@@ -137,3 +137,42 @@ h1 {
 .recipe-headline p {
     text-align: justify;
 }
+
+.last {
+    box-shadow: 9px 9px 9px 9px rgb(218, 171, 171);
+    height: 180px;
+    width: 1100px;
+    margin-left: 130px;
+    display: flex;
+}
+
+.last1 {
+
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 35px;
+    margin-left: 80px;
+
+
+}
+
+.last1 h2 {
+    text-align: center;
+}
+
+.last1 p {
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+
+.footer p {
+    color: beige;
+}
