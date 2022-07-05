@@ -1,9 +1,25 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Trispace', sans-serif;
+}
+
 .skip {
     color: violet;
 }
 
+.button {
+    text-decoration: none;
+    margin-left: 7px;
+    padding: 7px 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+
+}
+
 .first-section {
     display: flex;
+
+
 
 }
 
@@ -14,6 +30,7 @@ h1 {
 .half-width-text {
     width: 40%;
     padding-left: 7%;
+
 }
 
 .half-width-img {
@@ -30,21 +47,93 @@ h1 {
 
 .second-section {
     display: flex;
-    background-color: moccasin;
+
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 550px;
+
+    margin-top: 10%;
+
+
+
+
+
+}
+
+.recipes {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 
 
 .text-width {
-    width: 40%;
+    width: 50%;
+    margin-top: 150px;
+}
+
+.text-width p {
+    text-align: justify;
 }
 
 .person-width {
-    width: 40%;
-    padding-left: 20%;
+    width: 50%;
+
 }
 
 .person-image {
-    height: 400px;
-    width: 300px;
+    height: 550px;
+    width: 350px;
+    padding-left: 30%;
+}
+
+.section3 {
+    display: flex;
+    margin-left: 30px;
+}
+
+.image-width {
+    height: 500px;
+    width: 800px;
+    box-shadow: 10px 10px 10px 10px rgb(167, 144, 144);
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.image-width1 {
+    height: 500px;
+    width: 800px;
+    box-shadow: 10px 10px 10px 10px rgb(167, 144, 144);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.contact {
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+
+
+}
+
+.cover {
+    height: 300px;
+    width: 500px;
+    padding: 8px;
+    padding-left: 55px;
+}
+
+.recipe-headline {
+    padding: 14px;
+
+}
+
+.recipe-headline p {
+    text-align: justify;
 }
