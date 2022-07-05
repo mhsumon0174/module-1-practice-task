@@ -10,8 +10,9 @@ body {
 .button {
     text-decoration: none;
     margin-left: 7px;
+
     padding: 7px 20px;
-    background-color: blueviolet;
+    background-color: rgb(83, 219, 106);
     border-radius: 10px;
 
 }
@@ -50,7 +51,7 @@ h1 {
 
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 
     height: 550px;
 
@@ -71,7 +72,7 @@ h1 {
 
 
 .text-width {
-    width: 50%;
+    width: 40%;
     margin-top: 150px;
 }
 
@@ -122,6 +123,7 @@ h1 {
     padding: 10px;
     border-radius: 10px;
     margin-left: 50px;
+
 
 
 }
