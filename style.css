@@ -1,0 +1,50 @@
+.skip {
+    color: violet;
+}
+
+.first-section {
+    display: flex;
+
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.half-width-text {
+    width: 40%;
+    padding-left: 7%;
+}
+
+.half-width-img {
+    width: 50%;
+}
+
+.headline {
+    padding-top: 150px;
+}
+
+.hero_image {
+    width: 100%;
+}
+
+.second-section {
+    display: flex;
+    background-color: moccasin;
+}
+
+
+
+.text-width {
+    width: 40%;
+}
+
+.person-width {
+    width: 40%;
+    padding-left: 20%;
+}
+
+.person-image {
+    height: 400px;
+    width: 300px;
+}
